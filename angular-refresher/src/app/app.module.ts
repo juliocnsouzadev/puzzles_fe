@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PropertiesListComponent } from './properties-list/properties-list.component';
+import { PropertyThumbnailComponent } from './property-thumbnail/property-thumbnail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PropertiesListComponent
+    PropertiesListComponent,
+    PropertyThumbnailComponent
   ],
   imports: [
     BrowserModule,
