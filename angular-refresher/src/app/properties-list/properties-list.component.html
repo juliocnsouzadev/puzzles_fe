@@ -1,0 +1,14 @@
+<div class="prop-details prop-details-hover thumbnail">
+    <h2>{{prop.name | uppercase}}</h2>
+	<h3>{{prop.type | uppercase}}</h3>
+    <div>Price: {{prop.price | currency}}</div>
+	<div>Built Up Area: {{prop.builtUpArea}}</div>
+	<div>Carpet Area: {{prop.carpetArea}}</div>
+	<div>Configuration: {{prop.configuration}}</div>
+	<div>Facing: {{prop.facing}}</div>
+	<div>Age: {{prop.age}}</div>
+    <div>
+        <span>Location: {{prop.location.address}}</span>
+        <span>{{prop.location.city}},{{prop.location.country}}</span>
+    </div>
+</div>
