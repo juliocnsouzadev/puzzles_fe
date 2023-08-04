@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-property-thumbnail',
@@ -7,7 +7,12 @@ import { Component, Input } from '@angular/core';
 })
 export class PropertyThumbnailComponent {
 
-  @Input() inpProp:any;
+  @Input() inpProp: any;
+  @Output() outpProp = new EventEmitter();
+
+  handleClick() {
+    this.outpProp.emit('foo');
+  }
 
 
 }

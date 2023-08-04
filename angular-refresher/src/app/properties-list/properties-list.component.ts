@@ -24,5 +24,9 @@ export class PropertiesListComponent {
     }
   };
 
+  handleClick(args: string) {
+    alert("Received: " + args);
+  }
+
 
 }
