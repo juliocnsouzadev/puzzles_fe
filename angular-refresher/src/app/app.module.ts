@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PropertiesListComponent } from './properties-list/properties-list.component';
 import { PropertyThumbnailComponent } from './property-thumbnail/property-thumbnail.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PropertiesListComponent,
-    PropertyThumbnailComponent
+    PropertyThumbnailComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,

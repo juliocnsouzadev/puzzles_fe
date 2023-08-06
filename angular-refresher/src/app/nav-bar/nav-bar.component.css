@@ -1,0 +1,23 @@
+.navbar {
+    background-color: #04365f;
+    box-shadow: 0 3px 8px 0 rgba(0, 106, 194, .2);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 10px 0;
+    font-style: bold;
+}
+
+.nav-item {
+    padding: 0 10px;
+    margin-top: 3px;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    color: #fff
+}
+
+.nav-link:hover,
+.nav-link:active {
+    color: rgb(240, 148, 10)
+}

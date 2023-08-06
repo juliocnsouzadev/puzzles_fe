@@ -14,5 +14,9 @@ export class PropertyThumbnailComponent {
     this.outpProp.emit('foo');
   }
 
+  clickMe() {
+    this.outpProp.emit('foo bar');
+  }
+
 
 }

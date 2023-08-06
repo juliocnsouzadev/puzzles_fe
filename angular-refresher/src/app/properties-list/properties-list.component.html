@@ -1,5 +1,6 @@
 <div>
     <h1>Upcoming Properties for Sale</h1>
     <hr/>
-	<app-property-thumbnail [inpProp]="prop" (outpProp)="handleClick($event)"></app-property-thumbnail>
+	<app-property-thumbnail #thumbnail [inpProp]="prop" (outpProp)="handleClick($event)"></app-property-thumbnail>
+    <button class="btn btn-primary" (click)="thumbnail.clickMe()">list click</button>
 </div>	
